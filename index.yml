@@ -1,0 +1,15 @@
+--- 
+- name: install linuxsysadmins
+  hosts: DESKTOP-BE98ITN.192.168.2.20/ansible
+  become: true
+  tasks:
+   - name: Add group "Marvel" to remote server
+     group:
+        name: Marvel
+        state: present
+   - name: Add group "DC" to remote server
+     group:
+        name: DC
+        state: present
+...
+
