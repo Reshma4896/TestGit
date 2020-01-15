@@ -1,0 +1,28 @@
+---
+- name: Add user "Tony Stark" to remote user
+   Full Name: Tony Stark
+   User Name: t.stark
+   Group Memberships:
+    - Administrators (Windows) / wheel (Linux)
+    - Marvel
+- name: Add user "Bruce Banner" to remote user
+   Full Name: Bruce Banner
+   User Name: b.banner
+   Group Memberships:
+    - Marvel 
+- name: Add user "Steve Rogers" to remote user
+   Full Name: Steve Rogers
+   User Name: s.rogers
+   Group Memberships:
+    - Marvel
+- name: Add user "Clark kent" to remote user
+   Full Name: c.kent
+   User Name: t.stark
+   Group Memberships:
+    - Administrators (Windows) / wheel (Linux)
+    - Marvel
+- name: Add user "Bruce Wayne" to remote user
+   Full Name: Bruce Wayne
+   User Name: b.wayne
+   Group Memberships:
+    - DC
